@@ -12,7 +12,6 @@ body {
 }
 
 button {
-  align-content: center;
   white-space: nowrap;
   display: inline-block;
   height: 40px;
@@ -41,4 +40,14 @@ button:hover {
   color: #7795f8;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 1), 0 3px 6px rgba(0, 0, 0, 8);
+}
+
+input {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
 }
