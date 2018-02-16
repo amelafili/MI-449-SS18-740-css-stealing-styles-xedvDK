@@ -20,20 +20,20 @@ body {
 button {
   margin: 20px auto 0;
   white-space: nowrap;
-  display: block;
+  display: inline-block;
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 11), 0 1px 3px rgba(0, 0, 0, 8);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0), 0 1px 3px rgba(0, 0, 0, 0);
   background: #fff;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   color: #6772e5;
   text-decoration: none;
-  transition: all 15s ease;
+  transition: all 1s ease;
 }
 
 button:active {
@@ -54,8 +54,16 @@ input {
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
-  border: 1px solid #d4dada;
   border: 1px solid #07682c;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
   outline: 0;
   border-radius: 3px;
   box-shadow: none;
