@@ -15,6 +15,7 @@ button {
   color: #6772e5;
   text-decoration: none;
   transition: all 0.15s ease;
+  border: 0;
 }
 
 input {
@@ -26,6 +27,16 @@ input {
   border-radius: 3px;
   box-shadow: none;
   vertical-align: bottom;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant-ligatures: inherit;
+  font-variant-caps: inherit;
+  font-variant-numeric: inherit;
+  font-variant-east-asian: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 input:focus {
@@ -47,15 +58,12 @@ button:hover {
 }
 
 button:focus {
-  border: 1px solid #07682c;
   outline: 0;
 }
 
 body {
   background-color: #ffe4e1;
-  font-family: 'Merriweather', sans-serif;
   font-weight: 300;
-  color: #535054;
 }
 
 .container {
